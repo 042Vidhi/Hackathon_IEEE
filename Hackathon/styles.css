@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: all ease-out 0.5s;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    /* background-color:#E5E3C9; */
+}
+/* .contact{
+    padding: 50px; 
+} */
+
+.contact .title{
+    /* text-align: center; */
+}
+.Form{
+    display: flex;
+    /* justify-content: center; */
+    padding: 5vh 5vw;
+}
+.cards{
+    display: flexbox;
+    padding: 5vw;
+}
+.health-form{
+    padding: 5vw;
+}
+.Homepage{
+    display: flex;
+    flex-direction: row;
+    margin: 20vh 5vw;
+
+}
+@media only screen and (max-width: 800px) {
+    .Homepage{
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+        padding: 50px;
+        padding-top: 10px;
+    }
+    .Home .img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+.home-image{
+    width: 100%;
+}
+.h1{
+    text-align: justify;
+}
+.Aboutsection{
+    display: flex;
+    flex-direction: row; 
+    margin: 20vh 5vw;
+}
+.about-image{
+    width: 100%;
+}
+.Abouttext{
+    padding: 1vh 2vw;
+    text-align: justify;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+@media only screen and (max-width: 800px) {
+    .Aboutsection{
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+        padding: 50px;
+        padding-top: 10px;
+    }
+    .Home .img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+.homepagetext{
+    display: block;
+    padding: 1vh 2vw;
+    text-align: justify;
+}
+.hindihomepagetext{
+    display: none;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    margin-top: 5vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 5vw ;
+}
+.container .col{
+    border: 1px  solid black;
+    margin-bottom: 8px;   
+}
+.whyhealth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
